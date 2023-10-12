@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: min(90vw,30rem);
+  margin: 10rem auto 0;
+  text-align: center;
+  border: 1px solid cadetblue;
+  padding: 1rem;
+}
+img{
+  width: 230px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px solid green;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+p{
+  font-size: 1.5rem;
+}
+.icon{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+button {
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
